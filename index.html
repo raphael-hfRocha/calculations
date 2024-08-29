@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=3, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Atividade 2</title>
+  </head>
+  <body>
+    <div class="borderBox">
+      <div class="boxIndividual">
+        <h2>Calculo numero ao quadrado</h2>
+        <input type="number" id="inputNumber" placeholder="Digite um numero" />
+        <button onclick="calcularQuadrado()">Calcular quadrado</button>
+        <strong id="quadradoResult"></strong>
+      </div>
+    </div>
+    <div class="borderBox">
+      <div class="boxIndividual">
+        <h2>Calculo área do triângulo</h2>
+        <input
+          type="number"
+          id="inputValorBase"
+          placeholder="Digite o valor da base"
+        />
+        <input
+          type="number"
+          id="inputValorAltura"
+          placeholder="Digite o valor da altura"
+        />
+        <button onclick="calcularAreaTriangulo()">Calcular área</button>
+        <strong id="areaTrianguloResult"></strong>
+      </div>
+    </div>
+    <div class="borderBox">
+        <div class="boxIndividual">
+          <h2>Calculo fatorial</h2>
+        <input
+          type="number"
+          id="inputValorFatorial"
+          placeholder="Digite um valor"
+        />
+        <button onclick="calcularFatorial()">Calcular fatorial</button>
+        <strong id="fatorialResult"></strong>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
